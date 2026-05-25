@@ -2146,21 +2146,94 @@ const schedules = {
 	},
 };
 
-// Book Button
 
-const bookButtons = document.querySelectorAll('.book');
+// ===== PROFESSOR FINDER DATABASE ====
 
-bookButtons.forEach((button) => {
-	button.addEventListener('click', () => {
-		const card = button.closest('.section-box');
-		const program = card.querySelector('.prog-title').textContent;
-		const year = card.querySelector('.year-title').textContent;
+const professors = {
+	'GNED 01': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: 'Course title',
+				section: 'Unknown',
+			},
 
-		const section = `${program} ${year}`;
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
 
-		showSchedule(section);
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+			},
+		],
+	},
+}
+
+
+const page = document.body.dataset.page;
+
+if (document.body.dataset.page === "dashboard") {
+	const bookButtons = document.querySelectorAll('.book');
+
+	bookButtons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const card = button.closest('.section-box');
+			const program = card.querySelector('.prog-title').textContent;
+			const year = card.querySelector('.year-title').textContent;
+
+			const section = `${program} ${year}`;
+			showSchedule(section);
+		});
 	});
-});
+}
+
+if (document.body.dataset.page === "prof") {
+	const bookButtons = document.querySelectorAll('.book');
+
+	bookButtons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const card = button.closest('.section-box');
+			const course = card.querySelector(".subjectName").textContent;
+			showProfessors(course);
+		});
+	});
+}
+
+
 
 // MAIN FUNCTION
 
@@ -2172,12 +2245,12 @@ function showSchedule(section) {
 	const data = schedules[section].subjects;
 
 	const container = document.getElementById('scheduleContainer');
-	const subjectName = document.querySelector('.subject-name');
+	const sectionName = document.querySelector('.program-name');
 
 	container.innerHTML = '';
 
 	data.forEach((subjects) => {
-		subjectName.innerHTML = section;
+		sectionName.innerHTML = section;
 		container.innerHTML += `
 		<div class="grid-box">
 			<div class="schedule-row">
@@ -2198,8 +2271,56 @@ function showSchedule(section) {
 	});
 }
 
+
+
+
+
+function showProfessors(course) {
+	document.getElementById('homePage').style.display = 'none';
+	document.getElementById('dropdown').style.display = 'none';
+	document.getElementById('professorPage').style.display = 'block';
+
+	const cleanCourse = course?.trim();
+	const prof_data = professors[cleanCourse];
+
+	const prof_container = document.getElementById("professorContainer");
+	const subjectName = document.querySelector('.subject-name');
+
+	prof_container.innerHTML = "";
+
+	prof_data.profs.forEach(profs=> {
+		subjectName.innerHTML = course;
+		prof_container.innerHTML += `
+		<div class="profgrid-box">
+			<div class="prof-row">
+				<div class="vr"></div>
+				<p>${profs.code}</p>
+				<div class="vr"></div>
+				<p>${profs.professor}</p>
+				<div class="vr"></div>
+				<p>${profs.section}</p>
+				<div class="vr"></div>
+				<button id="contact-btn">
+				<a href="mailto:example@email.com" target="_blank" rel="noopener noreferrer">
+					<img src="/Professor_Finder/assets/images/icons/white-message icon4.svg" />
+					Send a message
+				</a>
+				</button>
+			</div>
+		</div>
+		`;	
+	});
+
+}
+
+
+
 function goBack() {
 	document.getElementById('homePage').style.display = 'grid';
 	document.getElementById('dropdown').style.display = 'flex';
 	document.getElementById('schedulePage').style.display = 'none';
+	document.getElementById('professorPage').style.display = 'none';
 }
+
+
+
