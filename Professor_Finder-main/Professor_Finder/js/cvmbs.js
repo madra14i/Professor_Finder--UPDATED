@@ -2144,60 +2144,1439 @@ const schedules = {
 			},
 		],
 	},
+
+	// 5TH YEARS
+
+	'DVM 5-1': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-2': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-3': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-4': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-5': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-6': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-7': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 5-8': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	// 6TH YEARS
+	'DVM 6-1': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-2': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-3': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-4': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-5': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-6': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-7': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
+
+	'DVM 6-8': {
+		subjects: [
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+
+			{
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
+			},
+		],
+	},
 };
 
 
 // ===== PROFESSOR FINDER DATABASE ====
 
 const professors = {
-	'GNED 01': {
+	"GNED 01": {
 		profs: [
 			{
 				code: '0000000000',
-				professor: 'Course title',
-				section: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 
 			{
 				code: '0000000000',
-				course: 'Course title',
-				schedule: 'Unknown',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"GNED 02": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"GNED 03": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"GNED 04": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"GNED 05": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"GNED 06": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"FITT": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"NSTP 1": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	"CVSU 101": {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
 			},
 		],
 	},
@@ -2280,15 +3659,16 @@ function showProfessors(course) {
 	document.getElementById('dropdown').style.display = 'none';
 	document.getElementById('professorPage').style.display = 'block';
 
-	const cleanCourse = course?.trim();
-	const prof_data = professors[cleanCourse];
+	console.log(course);
+	const prof_data = professors[course];
+	
 
 	const prof_container = document.getElementById("professorContainer");
 	const subjectName = document.querySelector('.subject-name');
 
 	prof_container.innerHTML = "";
 
-	prof_data.profs.forEach(profs=> {
+	prof_data.profs.forEach((profs) => {
 		subjectName.innerHTML = course;
 		prof_container.innerHTML += `
 		<div class="profgrid-box">
