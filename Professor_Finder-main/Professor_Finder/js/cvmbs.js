@@ -3109,11 +3109,10 @@ const schedules = {
 	},
 };
 
-
 // ===== PROFESSOR FINDER DATABASE ====
 
 const professors = {
-	"GNED 01": {
+	'GNED 01': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3165,7 +3164,7 @@ const professors = {
 		],
 	},
 
-	"GNED 02": {
+	'GNED 02': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3217,7 +3216,7 @@ const professors = {
 		],
 	},
 
-	"GNED 03": {
+	'GNED 03': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3269,7 +3268,7 @@ const professors = {
 		],
 	},
 
-	"GNED 04": {
+	'GNED 04': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3321,7 +3320,7 @@ const professors = {
 		],
 	},
 
-	"GNED 05": {
+	'GNED 05': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3373,7 +3372,7 @@ const professors = {
 		],
 	},
 
-	"GNED 06": {
+	'GNED 06': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3425,7 +3424,7 @@ const professors = {
 		],
 	},
 
-	"FITT": {
+	FITT: {
 		profs: [
 			{
 				code: '0000000000',
@@ -3477,7 +3476,7 @@ const professors = {
 		],
 	},
 
-	"NSTP 1": {
+	'NSTP 1': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3529,7 +3528,7 @@ const professors = {
 		],
 	},
 
-	"CVSU 101": {
+	'CVSU 101': {
 		profs: [
 			{
 				code: '0000000000',
@@ -3580,12 +3579,11 @@ const professors = {
 			},
 		],
 	},
-}
-
+};
 
 const page = document.body.dataset.page;
 
-if (document.body.dataset.page === "dashboard") {
+if (document.body.dataset.page === 'dashboard') {
 	const bookButtons = document.querySelectorAll('.book');
 
 	bookButtons.forEach((button) => {
@@ -3600,19 +3598,17 @@ if (document.body.dataset.page === "dashboard") {
 	});
 }
 
-if (document.body.dataset.page === "prof") {
+if (document.body.dataset.page === 'prof') {
 	const bookButtons = document.querySelectorAll('.book');
 
 	bookButtons.forEach((button) => {
 		button.addEventListener('click', () => {
 			const card = button.closest('.section-box');
-			const course = card.querySelector(".subjectName").textContent;
+			const course = card.querySelector('.subjectName').textContent;
 			showProfessors(course);
 		});
 	});
 }
-
-
 
 // MAIN FUNCTION
 
@@ -3650,35 +3646,29 @@ function showSchedule(section) {
 	});
 }
 
-
-
-
-
 function showProfessors(course) {
 	document.getElementById('homePage').style.display = 'none';
 	document.getElementById('dropdown').style.display = 'none';
 	document.getElementById('professorPage').style.display = 'block';
 
-	console.log(course);
-	const prof_data = professors[course];
-	
+	const prof_data = course.trim();
 
-	const prof_container = document.getElementById("professorContainer");
+	const prof_container = document.getElementById('professorContainer');
 	const subjectName = document.querySelector('.subject-name');
 
-	prof_container.innerHTML = "";
+	prof_container.innerHTML = '';
 
-	prof_data.profs.forEach((profs) => {
+	professors[prof_data].profs.forEach((prof) => {
 		subjectName.innerHTML = course;
 		prof_container.innerHTML += `
 		<div class="profgrid-box">
 			<div class="prof-row">
 				<div class="vr"></div>
-				<p>${profs.code}</p>
+				<p>${prof.code}</p>
 				<div class="vr"></div>
-				<p>${profs.professor}</p>
+				<p>${prof.professor}</p>
 				<div class="vr"></div>
-				<p>${profs.section}</p>
+				<p>${prof.section}</p>
 				<div class="vr"></div>
 				<button id="contact-btn">
 				<a href="mailto:example@email.com" target="_blank" rel="noopener noreferrer">
@@ -3688,12 +3678,9 @@ function showProfessors(course) {
 				</button>
 			</div>
 		</div>
-		`;	
+		`;
 	});
-
 }
-
-
 
 function goBack() {
 	document.getElementById('homePage').style.display = 'grid';
@@ -3701,6 +3688,3 @@ function goBack() {
 	document.getElementById('schedulePage').style.display = 'none';
 	document.getElementById('professorPage').style.display = 'none';
 }
-
-
-
